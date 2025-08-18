@@ -1,0 +1,25 @@
+{
+  "name": "zonos-web-ui",
+  "version": "1.0.0",
+  "description": "A web UI wrapper for the Zyphra Zonos voice cloning toolkit.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "zonos",
+    "tts",
+    "voice-cloning",
+    "ai"
+  ],
+  "author": "AI Assistant",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "express": "^4.19.2",
+    "form-data": "^4.0.0",
+    "multer": "^1.4.5-lts.1"
+  }
+}
+
